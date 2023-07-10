@@ -48,6 +48,7 @@ function RecipeCreate({ createRecipe }) {
                 type="text"
                 name="name"
                 size="5"
+                required
                 onChange={handleChange}
                 value={formData.name}
               />
@@ -58,6 +59,7 @@ function RecipeCreate({ createRecipe }) {
                 type="text"
                 name="cuisine"
                 size="5"
+                required
                 onChange={handleChange}
                 value={formData.cuisine}
               />
@@ -66,8 +68,9 @@ function RecipeCreate({ createRecipe }) {
               <input 
                 id="photo" 
                 name="photo" 
-                type="text"
+                type="img"
                 size="5"
+                required
                 onChange={handleChange}
                 value={formData.photo}
               />
@@ -77,6 +80,7 @@ function RecipeCreate({ createRecipe }) {
                 id="ingredients"
                 name="ingredients"
                 rows={3}
+                required
                 onChange={handleChange}
                 value={formData.ingredients}
               />
@@ -86,6 +90,7 @@ function RecipeCreate({ createRecipe }) {
                 id="preparation"
                 name="preparation"
                 rows={3}
+                required
                 onChange={handleChange}
                 value={formData.preparation}
               />
