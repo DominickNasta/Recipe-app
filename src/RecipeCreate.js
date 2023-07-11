@@ -8,11 +8,11 @@ function RecipeCreate({ createRecipe }) {
   // TODO: Add the required submit and change handlers
   
   const initialFormState = {
-      name: "Name",
-      cuisine: "Cuisine",
-      photo: "URL",
-      ingredients: "Ingredients",
-      preparation: "Preparation",
+      name: "",
+      cuisine: "",
+      photo: "",
+      ingredients: "",
+      preparation: "",
   };
   
   const [formData, setFormData] = useState({ ...initialFormState });
@@ -68,7 +68,7 @@ function RecipeCreate({ createRecipe }) {
               <input 
                 id="photo" 
                 name="photo" 
-                type="img"
+                type="text"
                 size="5"
                 required
                 onChange={handleChange}
