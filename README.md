@@ -1,6 +1,6 @@
 
  Recipe Organizer Tool
-Welcome to the Recipe Organizer Tool! This simple and user-friendly application allows you to store and manage your favorite recipes, including ingredients and instructions, all in one place.
+ Welcome to the Recipe Organizer Tool! This simple and user-friendly application allows you to store and manage your favorite recipes, including ingredients and instructions, all in one place.
 
 Recipe Organizer Tool
 
